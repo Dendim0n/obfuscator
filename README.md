@@ -1,9 +1,12 @@
 This is Another O-LLVM 5.0 Branch
 
- *Migrate to LLVM 5.0
- *Add Fake Option to avoid Xcode compiler error.
- *Fix sort of -bcf bug.
- *to be continued...
+ * Migrate to LLVM 5.0
+
+ * Add Fake Option to avoid Xcode compiler error.
+
+ * Fix sort of -bcf bug.
+
+ * to be continued...
 
 
 
