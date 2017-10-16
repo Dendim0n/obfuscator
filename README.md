@@ -1,3 +1,15 @@
+This is Another O-LLVM 5.0 Branch
+
+ *Migrate to LLVM 5.0
+ *Add Fake Option to avoid Xcode compiler error.
+ *Fix sort of -bcf bug.
+ *to be continued...
+
+
+
+
+==========Here are the original readme below==============
+
 Please have a look at the [wiki](https://github.com/obfuscator-llvm/obfuscator/wiki)!
 
 Current version: [LLVM-4.0](https://github.com/obfuscator-llvm/obfuscator/tree/llvm-4.0)
