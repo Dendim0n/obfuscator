@@ -14,6 +14,9 @@
 // Include the common option parsing interfaces.
 include "llvm/Option/OptParser.td"
 
+def fake__args : Separate<["-"], "index-store-path">, Flags<[DriverOption]>;
+
+
 /////////
 // Flags
 
