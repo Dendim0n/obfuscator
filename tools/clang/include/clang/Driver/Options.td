@@ -14,7 +14,7 @@
 // Include the common option parsing interfaces.
 include "llvm/Option/OptParser.td"
 
-def fake__args : Separate<["-"], "index-store-path">, Flags<[DriverOption]>;
+
 
 
 /////////
@@ -23,7 +23,7 @@ def fake__args : Separate<["-"], "index-store-path">, Flags<[DriverOption]>;
 // DriverOption - The option is a "driver" option, and should not be forwarded
 // to other tools.
 def DriverOption : OptionFlag;
-
+def fake__args : Separate<["-"], "index-store-path">, Flags<[DriverOption]>;
 // LinkerInput - The option is a linker input.
 def LinkerInput : OptionFlag;
 
